@@ -4,22 +4,24 @@ _We are building a toolkit that will enable you to do your own analysis of molec
 
 ## Concepts and activities.
 
-Using our protein alignment from last time ("Week 0"), we generated your first phylogenetic tree using FastTree, a software for estimating a maximum likelihood (ML) tree based on a multiple sequence alignment (MSA). 
+Using a _protein alignment_, we generated your first _phylogenetic tree_ using **FastTree**, a software for estimating a _maximum likelihood (ML) tree_ based on a _multiple sequence alignment (MSA)_. 
 
-We also discussed likelihood (https://en.wikipedia.org/wiki/Likelihood_function), and how comparing likelihoods between models can tell us how well the tree ('the parameters') explains the relationship of sequences in the MSA ('the data’).
+We also discussed [likelihood](https://en.wikipedia.org/wiki/Likelihood_function), and how comparing likelihoods between models can tell us how well the tree ('the parameters') explains the relationship of sequences in the MSA ('the data’).
 
-And we talked about the BLOSUM matrix, one example of a substitution matrix for scoring sequence alignment. 
- * Wikipedia has a nice article on it: [link](https://en.wikipedia.org/wiki/BLOSUM)
- * The original paper reporting BLOSUM: [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC50453/)
+And we talked about the BLOSUM matrix, one example of a _substitution matrix_ for scoring sequence alignment. 
+ * Wikipedia has a nice article on it [here](https://en.wikipedia.org/wiki/BLOSUM).
+ * The original paper reporting BLOSUM is free [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC50453/)
  
 ## Software.
 
 We also discussed how to install software from the command line. The software tools we installed were found in the homebrew repository. We installed muscle for sequence alignment and FastTree for inferring the tree from the MSA. 
-> '/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"'
-This is the site for homebrew-bio, the biology-focused software repository we use to install software for the analysis.
+> /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+This is the site for homebrew-bio, the biology-focused software repository of homebrew that we use to install software for the analysis.
 [link](https://github.com/brewsci/homebrew-bio)
 
 After adding the correct repositories (see: [link](https://github.com/brewsci/homebrew-bio)), we installed the programs with:
+
 >  'brew install muscle'
 
 >  'brew install fasttree'
