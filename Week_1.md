@@ -20,15 +20,15 @@ This is the site for homebrew-bio, the biology-focused software repository we us
 [link](https://github.com/brewsci/homebrew-bio)
 
 After adding the correct repositories (see: [link](https://github.com/brewsci/homebrew-bio)), we installed the programs with:
->  'brew install muscle'
+>  brew install muscle
 
->  'brew install fasttree'
+>  brew install fasttree
 
 We can run these programs using the commands:
 
->  'muscle -in myUnaligned.fasta -out myAligned.aln'
+>  muscle -in myUnaligned.fasta -out myAligned.aln
 
->  'FastTree myAligned.aln > myFastTree.tree'
+>  FastTree myAligned.aln > myFastTree.tree
 
 ---
 
