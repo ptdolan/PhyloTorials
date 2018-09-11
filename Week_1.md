@@ -15,19 +15,20 @@ And we talked about the BLOSUM matrix, one example of a substitution matrix for 
 ## Software.
 
 We also discussed how to install software from the command line. The software tools we installed were found in the homebrew repository. We installed muscle for sequence alignment and FastTree for inferring the tree from the MSA. 
-
+> '/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"'
 This is the site for homebrew-bio, the biology-focused software repository we use to install software for the analysis.
 [link](https://github.com/brewsci/homebrew-bio)
 
 After adding the correct repositories (see: [link](https://github.com/brewsci/homebrew-bio)), we installed the programs with:
->  brew install muscle
+>  'brew install muscle'
 
->  brew install fasttree
+>  'brew install fasttree'
 
 We can run these programs using the commands:
->  muscle -in myUnaligned.fasta -out myAligned.aln
 
->  FastTree myAligned.aln > myFastTree.tree
+>  'muscle -in myUnaligned.fasta -out myAligned.aln'
+
+>  'FastTree myAligned.aln > myFastTree.tree'
 
 ---
 
