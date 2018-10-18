@@ -21,6 +21,9 @@ BEAST is the workhorse program for running the MCMC based on the .xml instructio
 # Next week:
 How do we run a beast MCMC run? 
 What do we do with the output from BEAST?
+When do we need a codon alignment, when do we need a NT alignment or protein alignment?
+
+
 
 
 
