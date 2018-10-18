@@ -15,7 +15,7 @@ To perform Bayesian Phylogenetic Inference, we will need to install two programs
 BEAUTI is used to generate the instruction file for the MCMC. It takes an alignment as input and then allows you to choose the parameters to optimize during MCMC simulation, and the length and details of the MCMC chain run. It outputs an .xml file that is used by BEAST to run the simulation. 
 
 ### BEAST
-BEAST is the workhorse program for running the MCMC based on the .xml instructions from BEAUTI. Once loaded, BEAST runs the MCMC as directed in BEAUTI. 
+BEAST is the workhorse program for running the MCMC based on the .xml instructions from BEAUTI. BEAST is basically a "sampler", generating and scoring trees based on the priors defined in BEAUTI. Typically, a single MCMC chain samples millions of trees. BEAST saves a sample of these trees as defined by the user (usually a sample of 10000 trees is collected across the millions of sampled trees).
 
 
 # Next week:
