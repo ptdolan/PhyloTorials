@@ -1,0 +1,23 @@
+
+Operator analysis
+Operator                                          Tuning   Count      Time     Time/Op  Pr(accept) 
+CP1.gtr.rates                                     0.062   57572      559027   9.71     0.2353      
+CP2.gtr.rates                                     0.067   57336      540823   9.43     0.2378      
+CP3.gtr.rates                                     0.065   56946      579374   10.17    0.238       
+scale(CP1.alpha)                                  0.903   57614      558904   9.7      0.232       
+scale(CP2.alpha)                                  0.9     57896      543571   9.39     0.2322      
+scale(CP3.alpha)                                  0.939   57684      585075   10.14    0.2319      
+CP1.pInv                                          0.797   57684      557710   9.67     0.2344      
+CP2.pInv                                          0.703   57210      537866   9.4      0.2334      
+CP3.pInv                                          2.229   57537      583232   10.14    0.238       
+localClock.relativeRates                          5.817   1725718    43879295 25.43    0.2367      
+bitFlip(localClock.changes)                               1722489    43800965 25.43    0.0018      
+allNus                                            0.004   172661     2863074  16.58    0.2345      
+subtreeSlide(treeModel)                           0.056   1725157    41248042 23.91    0.2319      
+Narrow Exchange(treeModel)                                1724559    30390868 17.62    0.0031      
+Wide Exchange(treeModel)                                  171157     2168198  12.67    0.0001      
+wilsonBalding(treeModel)                                  171695     4128264  24.04    0.0002      
+scale(treeModel.rootHeight)                       0.121   172221     4387733  25.48    0.2368      
+uniform(nodeHeights(treeModel))                           1724629    43943675 25.48    0.0598      
+scale(constant.popSize)                           0.514   172235     14589    0.08     0.2373      
+
