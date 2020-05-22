@@ -17,6 +17,13 @@ This week is a general introduction to phylogenetics. We'll look through the pro
 
 > brew install jupyter
 
+## git
+
+> brew install git
+
+## BASR 
+
+git clone "https://github.com/ptdolan/BASR/"
 
 ## Next week:
 Installing and troubleshooting BEAST. 
