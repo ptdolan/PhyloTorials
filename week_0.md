@@ -1,7 +1,7 @@
 # Week 0
 
 ## Concepts and Activities
-This week is a general introduction to phylogenetics, how we go from a collection of sequences to a 
+This week is a general introduction to phylogenetics. We'll look through the project GitHub and try out the scripts. 
 
 ## Tools
 ### Installing Programs
