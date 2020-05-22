@@ -15,7 +15,7 @@ This week is a general introduction to phylogenetics. We'll look through the pro
 
 ### jupyter notebook
 
-> brew install jupyter
+> brew cask install jupyter
 
 ## git
 
