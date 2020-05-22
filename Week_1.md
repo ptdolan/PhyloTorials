@@ -1,6 +1,6 @@
 # Week 1: Alignment and tree inference
 
-_We are building a toolkit that will enable you to do your own analysis of molecular evolution. We first need to establish a few concepts and get the necessary software to get you going._
+_We are building a toolkit that will enable you to do your own analyses of molecular evolution. We first need to establish a few concepts and get the necessary software to get you going._
 
 ## Concepts and activities.
 
