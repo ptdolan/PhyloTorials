@@ -5,8 +5,9 @@ This week is a general introduction to phylogenetics, how we go from a collectio
 
 ## Tools
 ### Installing Programs
-
 ### homebrew
+
+> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 ### R
 
@@ -16,8 +17,9 @@ This week is a general introduction to phylogenetics, how we go from a collectio
 
 > brew install jupyter
 
-### 
-# Next week:
+
+## Next week:
+Installing and troubleshooting BEAST. 
 
 http://tree.bio.ed.ac.uk/software/
 
